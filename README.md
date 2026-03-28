@@ -1,16 +1,28 @@
-# RedSwitch
+<p align="center">
+  <img src="logo.png" alt="RedSwitch" width="400">
+</p>
 
-**The failsafe for autonomous AI agents.**
+<p align="center">
+  <strong>The failsafe for autonomous AI agents</strong><br>
+  Open protocol for agent lifecycle management
+</p>
 
-Your AI agent runs 24/7 — but what happens if you can't supervise it? RedSwitch is the dead man's switch that prevents runaway API costs, zombie agents, and chaos for your family.
+<p align="center">
+  <a href="https://redswitch.ai">🌐 Website</a> •
+  <a href="https://redswitch.ai/docs">📖 Docs</a> •
+  <a href="https://pypi.org/project/redswitch/">🐍 PyPI</a> •
+  <a href="https://redswitch.ai/dashboard">📊 Dashboard</a>
+</p>
+
+---
 
 ## 🚀 Quick Start
 
-```bash
+`ash
 pip install redswitch
-```
+`
 
-```python
+`python
 from redswitch import RedSwitch
 
 rs = RedSwitch(
@@ -21,20 +33,13 @@ rs = RedSwitch(
 
 rs.register()
 rs.heartbeat()  # Call this periodically
-```
+`
 
 ## 📦 Projects
 
 | Repo | Description |
 |------|-------------|
 | [sdk](https://github.com/Redswitch-Ai/sdk) | Python SDK for RedSwitch integration |
-
-## 🔗 Links
-
-- 🌐 [Website](https://redswitch.ai)
-- 📖 [Documentation](https://redswitch.ai/docs)
-- 📊 [Dashboard](https://redswitch.ai/dashboard)
-- 🐍 [PyPI Package](https://pypi.org/project/redswitch/)
 
 ## 💡 Why RedSwitch?
 
